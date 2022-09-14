@@ -6,7 +6,7 @@ A collection of HTML code snippets for visual studio code snippets tool.
 
 <h2>How to use it:</h2><br>
 The html.json file should be copied into the user defined snippets in visual studio code. 
-You can find more details about how to add these snippets into VSCode and how to use the snippets tools in VSCode here:<br>
+You can find more details about how to add these snippets into VSCode and how to use the snippets tool here:<br>
 <br>
 https://code.visualstudio.com/docs/editor/userdefinedsnippets
 

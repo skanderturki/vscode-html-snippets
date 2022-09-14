@@ -46,5 +46,20 @@
             "  </tr>",
             "</table>"],
     "description": "A HTML Table skeleton."
+  },
+  "HTML Form": {
+    "prefix": ["html-form"],
+    "body": ["<form method=\"$1\" action=\"$2\">",
+            "  <fieldset>",
+            "  <legend>$3</legend>",
+            "    <p>",
+            "      <label>$4</label>",
+            "      <input type=\"$5\" name=\"$6\"/>",
+            "    </p>",     
+            "    ",
+            "    <input type=\"$7\" />",
+            "  </fileldset>",
+            "</form>"],
+    "description": "A HTML Form skeleton."
   }
 }

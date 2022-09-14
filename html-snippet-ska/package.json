@@ -1,0 +1,56 @@
+{
+	"name": "html-snippets-ska",
+	"displayName": "HTML SNIPPETS SKA",
+	"description": "Snippets for html documents, tables, forms, etc.",
+	"version": "0.0.1",
+	"publisher": "skander turki",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets.json"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "ctrl+shift+h",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == html",
+        "args": {
+          "name": "HTML5 Start"
+        }
+      },
+      {
+        "key": "ctrl+shift+t",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == html",
+        "args": {
+          "name": "HTML Table"
+        }
+      },
+      {
+        "key": "ctrl+shift+f",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == html",
+        "args": {
+          "name": "HTML Form"
+        }
+      },
+      {
+        "key": "ctrl+shift+o",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == html",
+        "args": {
+          "name": "HTML5 Start - optimized"
+        }
+      }
+    ],
+    "categories": ["Snippets"]
+  }
+}

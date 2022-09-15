@@ -3,6 +3,7 @@
 <h2>What is this repository about:</h2>
 <p>A visual studio code extension for HTML code snippets.</p>
 <p>The HTML code is conform to <a href="https://google.github.io/styleguide/htmlcssguide.html">the HTML/CSS google style guide</p>
+<br>
 
 <h2>How to use the extension as is:</h2>
 <p>To use the extension, copy the html-snippet-ska folder into the .vscode/extensions on your vscode local installation then restart vscode.</p>

@@ -1,10 +1,10 @@
 {
 	"name": "html-snippets-ska",
 	"displayName": "HTML SNIPPETS SKA",
-	"description": "Snippets for html documents, tables, forms, etc.",
+	"description": "Snippets for html documents, tables, forms, css reset, etc.",
 	"version": "0.0.1",
 	"publisher": "skander turki",
-  "keywords": ["HTML", "Snippets", "HTML5"],
+  "keywords": ["HTML", "Snippets", "HTML5", "CSS", "CSS-Reset"],
   "icon": "icon.png",
   "galleryBanner": {
     "color": "#C80000",
@@ -25,7 +25,11 @@
     "snippets": [
       {
         "language": "html",
-        "path": "./snippets.json"
+        "path": "./snippets-html.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets-css.json"
       }
     ],
     "keybindings": [
@@ -67,6 +71,16 @@
         "description": "Insert an Optimized HTML starter code.",
         "args": {
           "name": "HTML5 Start - optimized"
+        }
+      },
+      {
+        "key": "ctrl+alt+r",
+        "mac": "cmd+alt+r",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == css",
+        "description": "Insert a CSS reset.",
+        "args": {
+          "name": "CSS Reset"
         }
       }
     ],

@@ -4,6 +4,17 @@
 	"description": "Snippets for html documents, tables, forms, etc.",
 	"version": "0.0.1",
 	"publisher": "skander turki",
+  "keywords": ["HTML", "Snippets", "HTML5"],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/skanderturki/vscode-html-snippets"
+	},
+  "homepage": "https://github.com/skanderturki/vscode-html-snippets",
 	"engines": {
 		"vscode": "^1.28.0"
 	},
@@ -20,32 +31,40 @@
     "keybindings": [
       {
         "key": "ctrl+shift+h",
+        "mac": "cmd+shift+h",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus && editorLangId == html",
+        "description": "Insert an HTML starter code.",
         "args": {
           "name": "HTML5 Start"
         }
       },
       {
         "key": "ctrl+shift+t",
+        "mac": "cmd+shift+t",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus && editorLangId == html",
+        "description": "Insert an HTML table.",
         "args": {
           "name": "HTML Table"
         }
       },
       {
         "key": "ctrl+shift+f",
+        "mac": "cmd+shift+f",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus && editorLangId == html",
+        "description": "Insert an HTML form.",
         "args": {
           "name": "HTML Form"
         }
       },
       {
         "key": "ctrl+shift+o",
+        "mac": "cmd+shift+o",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus && editorLangId == html",
+        "description": "Insert an Optimized HTML starter code.",
         "args": {
           "name": "HTML5 Start - optimized"
         }

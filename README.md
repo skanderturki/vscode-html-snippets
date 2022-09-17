@@ -43,3 +43,6 @@
 </table>   
 <br>
 
+<h2>Miscellaneous:</h2>
+<p><a href="https://stackoverflow.com/questions/73752843/adding-a-description-to-a-keybinding-in-a-vscode-extension">Related <em>Stackoverflow</em> post</p>
+<br>

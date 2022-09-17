@@ -10,14 +10,33 @@
 <p>If you want to add the code snippets without the extension continue reading the sections below</p>
 <br>
 
-<h2>How to use the HTML snippets without the extension:</h2>
-<p>The html.json file should be copied into the user defined snippets in visual studio code.</p>
-<p>You can find more details about how to add these snippets into VSCode and how to use the snippets tool here:</p>
-<p><a href="https://code.visualstudio.com/docs/editor/userdefinedsnippets">Visual Studio Code user defined snippets</p>
+<h2>Key bindings:</h2>
+<p>The key bindings that are defined currently are:</p>
+<br>
+ <table>
+   <caption>Key bindings</caption>
+  <thead>
+    <tr>
+      <th>Description
+      <th>Windows
+      <th>Mac
+  <tbody>
+    <tr>
+      <td>Insert an HTML starter code
+      <td>ctrl+shift+h
+      <td>cmd+shift+h
+    <tr>
+      <td>Insert an HTML table
+      <td>ctrl+shift+t
+      <td>cmd+shift+t
+    <tr>
+      <td>Insert an HTML form
+      <td>ctrl+shift+f
+      <td>cmd+shift+f
+    <tr>
+      <td>Insert an Optimized HTML starter code
+      <td>ctrl+shift+o
+      <td>cmd+shift+o
+</table>   
 <br>
 
-<h2>How to use the keybindings without the extension:</h2>
-<p>The keybindings.json file define keybindings (shortcuts) for the snippets defined in html.json</p>
-<p>To add these keybindings to visual studio code, read the documentation below:</p>
-<p><a href="https://code.visualstudio.com/docs/getstarted/keybindings">Visual Studio Code key bindings</p> 
-<br>

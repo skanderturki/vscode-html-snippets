@@ -5,9 +5,8 @@
 <p>The HTML code is conform to <a href="https://google.github.io/styleguide/htmlcssguide.html">the HTML/CSS google style guide</p>
 <br>
 
-<h2>How to use the extension as is:</h2>
+<h2>How to use the extension:</h2>
 <p>To use the extension, copy the html-snippet-ska folder into the .vscode/extensions on your vscode local installation then restart vscode.</p>
-<p>If you want to add the code snippets without the extension continue reading the sections below</p>
 <br>
 
 <h2>Key bindings:</h2>
@@ -37,6 +36,13 @@
       <td>Insert an Optimized HTML starter code
       <td>ctrl+shift+o
       <td>cmd+shift+o
+    <tr>
+      <td>Insert a complete CSS reset set of rules
+      <td>ctrl+alt+r
+      <td>cmd+alt+r
 </table>   
 <br>
 
+<h2>Miscellaneous:</h2>
+<p><a href="https://stackoverflow.com/questions/73752843/adding-a-description-to-a-keybinding-in-a-vscode-extension">Related <em>Stackoverflow</em> post</p>
+<br>

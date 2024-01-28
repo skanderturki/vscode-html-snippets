@@ -40,6 +40,10 @@
       <td>Insert a complete CSS reset set of rules
       <td>ctrl+alt+r
       <td>cmd+alt+r
+    <tr>
+      <td>Insert a starting code for a Node.js/Express/Mongoose web server
+      <td>ctrl+shift+n
+      <td>cmd+shift+n
 </table>   
 <br>
 

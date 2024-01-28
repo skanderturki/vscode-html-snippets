@@ -1,7 +1,7 @@
 {
 	"name": "html-snippets-ska",
-	"displayName": "HTML SNIPPETS SKA",
-	"description": "Snippets for html documents, tables, forms, css reset, etc.",
+	"displayName": "HTML and Web SNIPPETS",
+	"description": "Snippets for html documents, tables, forms, css reset, node express, etc.",
 	"version": "0.2.2",
 	"publisher": "skanderturki",
 	"keywords": [
@@ -9,7 +9,9 @@
 		"Snippets",
 		"HTML5",
 		"CSS",
-		"CSS-Reset"
+		"CSS-Reset",
+		"Node.js",
+		"Express"
 	],
 	"icon": "icon.png",
 	"galleryBanner": {
@@ -36,6 +38,10 @@
 			{
 				"language": "css",
 				"path": "./snippets-css.json"
+			},
+			{
+				"language": "js",
+				"path": "./snippets-express.json"
 			}
 		],
 		"keybindings": [
@@ -87,6 +93,16 @@
 				"description": "Insert a CSS reset.",
 				"args": {
 					"name": "CSS Reset"
+				}
+			},
+			{
+				"key": "ctrl+shift+n",
+				"mac": "cmd+shift+n",
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus && editorLangId == js",
+				"description": "Insert a starting code for a Node.js/Express/Mongoose web server.",
+				"args": {
+					"name": "NodeJS Express Start"
 				}
 			}
 		],

@@ -57,7 +57,7 @@
         "    });",
         "  })",
         "  .catch((error) => {",
-        "    console.error(`Could not connect to database:\\n ${error}`);",
+        "    console.error(`Could not connect to database:\\n\\${error}`);",
         "  });"
       ],
     "description": "A starting code for a Node.js/Express/Mongoose web server."

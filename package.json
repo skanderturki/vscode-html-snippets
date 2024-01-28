@@ -2,7 +2,7 @@
 	"name": "html-snippets-ska",
 	"displayName": "HTML and Web SNIPPETS",
 	"description": "Snippets for html documents, tables, forms, css reset, node express, etc.",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"publisher": "skanderturki",
 	"keywords": [
 		"HTML",
@@ -40,7 +40,7 @@
 				"path": "./snippets-css.json"
 			},
 			{
-				"language": "js",
+				"language": "javascript",
 				"path": "./snippets-express.json"
 			}
 		],
@@ -99,7 +99,7 @@
 				"key": "ctrl+alt+n",
 				"mac": "cmd+alt+n",
 				"command": "editor.action.insertSnippet",
-				"when": "editorTextFocus && editorLangId == js",
+				"when": "editorTextFocus && editorLangId == javascript",
 				"description": "Insert a starting code for a Node.js/Express/Mongoose web server.",
 				"args": {
 					"name": "NodeJS Express Start"

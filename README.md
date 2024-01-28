@@ -42,8 +42,8 @@
       <td>cmd+alt+r
     <tr>
       <td>Insert a starting code for a Node.js/Express/Mongoose web server
-      <td>ctrl+shift+n
-      <td>cmd+shift+n
+      <td>ctrl+alt+n
+      <td>cmd+alt+n
 </table>   
 <br>
 

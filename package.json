@@ -96,8 +96,8 @@
 				}
 			},
 			{
-				"key": "ctrl+shift+n",
-				"mac": "cmd+shift+n",
+				"key": "ctrl+alt+n",
+				"mac": "cmd+alt+n",
 				"command": "editor.action.insertSnippet",
 				"when": "editorTextFocus && editorLangId == js",
 				"description": "Insert a starting code for a Node.js/Express/Mongoose web server.",

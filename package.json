@@ -2,7 +2,7 @@
 	"name": "html-snippets-ska",
 	"displayName": "HTML and Web SNIPPETS",
 	"description": "Snippets for html documents, tables, forms, css reset, node express, etc.",
-	"version": "0.2.8",
+	"version": "0.2.10",
 	"publisher": "skanderturki",
 	"keywords": [
 		"HTML",

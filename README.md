@@ -41,6 +41,10 @@
       <td>ctrl+alt+r
       <td>cmd+alt+r
     <tr>
+      <td>Insert a complete CSS responsive design system with 3 breakpoints (680, 768 and 1024px)
+      <td>ctrl+alt+m
+      <td>cmd+alt+m
+    <tr>
       <td>Insert a starting code for a Node.js/Express/Mongoose web server
       <td>ctrl+alt+n
       <td>cmd+alt+n

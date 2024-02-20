@@ -96,6 +96,16 @@
 				}
 			},
 			{
+				"key": "ctrl+alt+m",
+				"mac": "cmd+alt+m",
+				"command": "editor.action.insertSnippet",
+				"when": "editorTextFocus && editorLangId == css",
+				"description": "Insert a CSS responsive system.",
+				"args": {
+					"name": "CSS Responsive System"
+				}
+			},
+			{
 				"key": "ctrl+alt+n",
 				"mac": "cmd+alt+n",
 				"command": "editor.action.insertSnippet",
